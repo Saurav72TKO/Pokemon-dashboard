@@ -1,4 +1,4 @@
-# ⚡ 【entity-Pokemon¦canonical_name=Pokemon】 Dashboard
+# ⚡ Pokemon Dashboard
 
 A simple and fun 【entity-Pokemon¦canonical_name=Pokemon】 Dashboard built with **HTML, CSS, JavaScript** where you can search for any 【entity-Pokemon¦canonical_name=Pokemon】, view its details, save your favourite 【entity-Pokemon¦canonical_name=Pokemon】, and delete them.
 
