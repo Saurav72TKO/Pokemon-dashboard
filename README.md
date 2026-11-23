@@ -4,7 +4,7 @@ Search any Pokemon, save your favourites, delete them anytime.
 
 ## ✨ Features
 - 🔍 Search Pokemon by name or ID
-- 👁️ See image, type, height, weight, stats
+- 👁️ See image, type, HP, ATK, DEF
 - 💾 Save Pokemon to your collection
 - 🗑️ Delete Pokemon
 - 💻 Auto-saved in Local Storage - stays after refresh
