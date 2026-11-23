@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokémon Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Pokémon Dashboard</h1>
+      <span id="counter">0 Pokémon</span>
+    </header>
+
+    <!-- Add bar -->
+    <div class="bar">
+      <input id="addInput" placeholder="Pokémon name or ID (e.g. pikachu or 25)">
+      <button id="addBtn" class="btn">Add Pokémon</button>
+    </div>
+    <p id="message"></p>
+
+    <!-- Filter bar -->
+    <div class="bar">
+      <input id="searchInput" placeholder="Search by name…">
+      <select id="typeSelect"><option value="all">All types</option></select>
+      <select id="sortSelect">
+        <option value="added">Sort: Added</option>
+        <option value="id">Sort: ID</option>
+        <option value="name">Sort: Name</option>
+      </select>
+    </div>
+
+    <section id="cards" class="cards"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
