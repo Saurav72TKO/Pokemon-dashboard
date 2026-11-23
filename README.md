@@ -1,37 +1,26 @@
 # ⚡ Pokemon Dashboard
 
-A simple and fun 【entity-Pokemon¦canonical_name=Pokemon】 Dashboard built with **HTML, CSS, JavaScript** where you can search for any 【entity-Pokemon¦canonical_name=Pokemon】, view its details, save your favourite 【entity-Pokemon¦canonical_name=Pokemon】, and delete them.
-
-All your saved 【entity-Pokemon¦canonical_name=Pokemon】 are stored in the browser using **Local Storage**, so they stay saved even after you refresh or close the tab.
-
-**Live Demo:** [Add your Netlify link here]
-
----
+Search any Pokemon, save your favourites, delete them anytime.
 
 ## ✨ Features
-
-- 🔍 **Search 【entity-Pokemon¦canonical_name=Pokemon】** - Search any 【entity-Pokemon¦canonical_name=Pokemon】 by name or ID (e.g. `pikachu` or `25`)
-- 📋 **Pokemon Details** - View image, type, height, weight, abilities, and stats
-- 💾 **Save Pokemon** - Save your favourite 【entity-Pokemon¦canonical_name=Pokemon】 to your dashboard
-- 🗑️ **Delete 【entity-Pokemon¦canonical_name=Pokemon】** - Remove a 【entity-Pokemon¦canonical_name=Pokemon】 from your saved list
-- 💻 **Local Storage** - All saved 【entity-Pokemon¦canonical_name=Pokemon】 are stored in `localStorage`, no database needed
-- ⚡ **PokeAPI** - Live data fetched from the official PokeAPI
-- 📱 **Responsive Design** - Works on mobile, tablet, and desktop
-
----
+- 🔍 Search Pokemon by name or ID
+- 👁️ See image, type, height, weight, stats
+- 💾 Save Pokemon to your collection
+- 🗑️ Delete Pokemon
+- 💻 Auto-saved in Local Storage - stays after refresh
 
 ## 🛠️ Tech Used
+- HTML, CSS, JavaScript
+- PokeAPI - https://pokeapi.co/api/v2/pokemon
+- Local Storage
 
-- **HTML** - Structure
-- **CSS** - Styling and layout
-- **JavaScript** - Logic, API calls, CRUD operations
-- **PokeAPI** - `https://pokeapi.co/api/v2/pokemon/{name-or-id}`
-- **Local Storage** - To save Pokemon in browser
+## 🚀 How To Use
+1. Open `index.html`
+2. Search `pikachu`
+3. Click **Save**
+4. Click **Delete** to remove
 
----
-
-## 🚀 How To Run
-
-1. Clone this repo:
-```bash
-git clone https://github.com/your-username/pokemon-dashboard.git
+## 💾 Local Storage
+Saved Pokemon are stored as:
+```js
+localStorage.setItem("myPokemons", JSON.stringify(savedPokemons))
